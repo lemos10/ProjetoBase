@@ -1,0 +1,37 @@
+h1{text-align: center;
+    font-family: Impact;}
+header{background-color: rgb(41, 196, 2);}
+h5{text-align: center;}
+footer{background-color: black;}
+p{color: aliceblue;}
+p{text-align: center;
+padding: 30px ;}
+#pdofooter{
+    text-align: center;
+    color: aliceblue;
+}
+nav{text-align: center;}
+a{text-decoration: none;}
+#pdotexto{color: black;
+text-align: left;
+padding: 30px 50px;}
+*{margin: 0
+
+padding 0;}
+
+div {
+    background-color: rgb(101, 196, 63);
+    width: 400px;
+    height: 600px;
+    margin: 50px auto;
+}
+#pdofooter{
+    text-align: center;
+    color: aliceblue;
+}
+#h2doroteiro{
+    border: 20px solid; color: black;
+    border-radius: 80px;
+}
+h2{text-align: center;}
+
