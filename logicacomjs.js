@@ -73,7 +73,7 @@ else if (pontuacao>=5001 && até <=10000){
     alert ("Seu nível é de um Expert e seu bônus de xp é de 1000")
 }
 else { alert ("Acima de 10000 seu nível é de Mestre e seu bônus de xp é de 2000")
-}*/
+}
 
 let valorbasico = 25;
 let valorpremium = 40;
@@ -93,3 +93,81 @@ let tipodeassinatura = prompt ("Digite o tipo de assinatura: ")
 alert ("O valor do seu pacote sera de" + premium+telas3a4oumais)
     }
 }
+
+let daysOfWeek = ["Caio", "Samuel"];
+console.log (daysOfWeek[1])
+console.log (daysOfWeek.length)
+let listdiver = ["Caio",1,2.5, "Escola", false]
+console.log(listdiver[3])
+let nomedoaluno = prompt("Digite o nome do novo aluno: ")
+daysOfWeek.push(nomedoaluno)
+console.log (daysOfWeek)
+
+let daysOfWeek = ["Caio", "Samuel"];
+console.log (daysOfWeek[1])
+console.log (daysOfWeek.length)
+let listdiver = ["Caio",1,2.5, "Escola", false]
+console.log(listdiver[3])
+let nomedoaluno = prompt("Digite o nome do novo aluno: ")
+daysOfWeek.unshift("Caique", "Lyann", "Clara")
+daysOfWeek.push(nomedoaluno)
+daysOfWeek.unshift(Fábio)
+daysOfWeek.shift()
+console.log("Os alunos da escola são: "+daysOfWeek)
+
+let daysOfWeek = ["Caio", "Samuel"];
+console.log (daysOfWeek[1])
+console.log (daysOfWeek.length)
+let listdiver = ["Caio",1,2.5, "Escola", false]
+console.log(listdiver[3])
+let nomedoaluno = prompt("Digite o nome do novo aluno: ")
+daysOfWeek.unshift("Caique", "Lyann", "Clara")
+daysOfWeek.push(nomedoaluno)
+daysOfWeek.unshift("Richard")
+daysOfWeek.shift() 
+daysOfWeek.sort // bota em ordem alfabetica ou númerica (ordem das letras do alfabeto A a Z)
+daysOfWeek.reverse// bota de tras pra frente
+console.log("Os alunos da escola são: "+daysOfWeek)
+console.log(daysOfWeek.indexOf("Samuel"))
+
+const alunos = ["Ana","Bruno","Carlos", "Diana"];
+for (const aluno of alunos){
+    console.log("Olá, "+ aluno+ "!");
+}
+
+let number = Number (prompt("Digite o número que deseja somar aos anteriores:"))
+let numberfinal =0
+while (number != 0){
+    Number (prompt("Digite o número que deseja somar aos anteriores:"))
+    numberfinal = numberfinal+number
+}
+console.log("O número final é: "+numberfinal)
+
+for (let i = 1; i <= 10; i++){
+    console.log(i);
+}
+
+function saudar(){
+ alert ("Seja Bem-Vindo ao sistema")
+}
+
+
+function dobrarNumero(numero){
+    return numero * 2; }
+ let resultado = dobrarNumero(20);
+alert("O resultado é: " + resultado)
+
+function comprimentar(nome){
+alert("Olá " + nome+ " tenha um exelente dia!")
+} 
+
+comprimentar("Davi")
+
+function contagemregressiva(numero){
+    alert(numero)
+    if(numero ===0){
+      alert("Chegou")
+    }
+    contagemregressiva(numero-1)
+     }
+     contagemregressiva(5);*/
